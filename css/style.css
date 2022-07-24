@@ -1,0 +1,466 @@
+
+/* Pengaturan body website body paling luar */
+body {
+	 background-color: #FFFFF;
+	 font-family:arial;
+	 font-size:11px;
+}
+.input-form
+{
+	text-align:center;
+	max-width: 1000px;
+	margin:auto;
+}
+.mr12 {margin-left:17%;}
+
+input[type=text],[type=password], select, textarea {
+	padding: 7px 5px;
+	margin: 4px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	width:100%;
+}
+/*Margin*/
+.ml-100{margin-left: 100px}
+
+/*Width*/
+.w-10{width:10px}
+.w-20{width:20px}
+.w-30{width:30px}
+.w-40{width:40px}
+.w-50{width:50px}
+.w-100{width:100px}
+.w-200{width:200px}
+.w-300{width:300px}
+.w-400{width:400px}
+.w-500{width:500px}
+.w-600{width:600px}
+.w-700{width:700px}
+.w-50p{width:50%}
+.w-70p{width:70%}
+.w-100p{width:100%}
+
+.h-20{height:20px}
+.h-30{height:30px}
+.h-40{height:40px}
+.h-50{height:50px}
+.h-100{height:100px}
+.h-200{height:200px}
+.h-300{height:300px}
+.h-400{height:400px}
+
+
+/* Untuk tabel*/
+.tbl_view {border:1px;border-color:#666666}
+.tbl_view tr {font-size:11px;color:#000;}
+.tbl_view tr:nth-child(even) {background:#f2f2f2}
+.tbl_view tr:nth-child(odd) {background:#e6e6e6}
+.tbl_view th {background-color: #20B2AA ;font-size:13px;color:#737373;font-weight:bold;height:35px;text-align:center;padding:7px;}
+.tbl_view tr:hover { background-color:#D5FFAA;}
+.tbl_view tr td {padding:4px 6px;}
+
+/* Untuk input box*/
+.tbl2 {width:100%;padding:10px;font-size:12px;color:#000;border-radius:5px;background:#F0F0F0;}
+.tbl2 td {padding:2px;}
+/* Untuk tombol box atas*/
+.tbl3 {width:100%;margin:15px 10px 10px 14px;background:#F0F0F0;width:auto;padding:35px;border-radius:5px;font-size:11px;color:#000;}
+
+/* Format huruf */
+.fn11 {font-family:Arial;font-size: 11px}
+.fn12 {font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 12px; }
+.fn13 {font-family:Arial; font-size: 13px; }
+.fn14 {font-family:Arial; font-size:14;}
+.fn16 {font-family:Arial; font-size:16;}
+.fn18 {font-family:Arial; font-size:18;}
+.fn20 {font-family:Arial; font-size:20;}
+.fn24 {font-family:Arial; font-size:24;}
+.fn28 {font-family:Arial; font-size:28;}
+.fn30 {font-family:Arial; font-size:30;}
+.fnb 	{font-weight:bold}
+.wh  	{color:#;}
+.gr  	{color:#CCC;}
+.gr1 	{color:#666666;}
+.gr2 	{color:#333;}
+.blk 	{color:#000;}
+.blu 	{color:#0000FF;}
+.yl  	{color:#FFFF00;}
+.red 	{color:#FF0000;}
+.col-1	{width:100%;padding:10px;margin:5px;float:left}
+.col-2	{width:50%;padding:10px;margin:5px;float:left}
+.col-3	{width:33%;padding:10px;margin:5px;float:left}
+.col-4	{width:21%;padding:10px;margin:15px;float:left}
+.col-5	{width:20%;padding:10px;margin:5px;float:left}
+
+
+
+/* WRAPPER ---------------------- */
+#wrapper {
+	 width: 100%;
+	 height: auto;
+	 background-image:url(../images/bg10.jpg);
+	 -webkit-print-color-adjust: exact;
+}
+
+/* HEADER ---------------------------------- */
+#header {
+	 width: 100%;
+	 height: 120px;
+	 border: 0px ;
+	 text-align: center;
+	 /*background-color: #10bf32 ;*/
+	 background-color: #dcdcdc;
+	 background-image:url(../images/header3.jpg);
+	 background-position:center;
+	 background-repeat:repeat;
+	 border-style:groove;
+	 
+}
+/* FOOTER ---------------------------------- */
+#footer {
+	 width: 100%;
+	 height: 50px;
+	 border: 1px solid #CCC;
+	 text-align: center;
+	 background-color:  #dcdcdc;
+	 clear: both;
+	 margin-top:30px;
+	 font-size:14px;
+}
+
+/* SIDEBAR ---------------------------------- */
+#sidebar {
+	 float:left;
+	 width: 200px;
+	 height: auto;
+	 margin-bottom: 5px;
+	 margin-top:35px;
+	 text-align:right;
+	 background-color:#20B2AA;
+	 border-radius: 7px;
+}
+
+/* CONTENT ---------------------------------- */
+#content {
+	-webkit-print-color-adjust: exact;
+	 height:auto;
+	 margin: 10px;
+	 border: 0px solid #0035B3;
+	 margin-bottom: 7px;
+
+	 
+}
+
+.ico {
+	background-position: 0px 0px;  /* equivalent to 'top left' */
+	border: none;           /* assuming we don't want any borders */
+	cursor: pointer;        /* make the cursor like hovering over an <a> element */
+	padding-right:4px;/* make text start to the right of the image */
+	vertical-align: bottom; /* align the text vertically centered */
+	filter: hue-rotate(180deg);
+	-webkit-filter: hue-rotate(180deg);
+	}
+/*tombol detail info penyakit*/
+
+.list-produk
+{
+	border-radius:10px;
+    border: 2px solid black;
+    padding: 5px;
+    float: left;
+    width: 215px;
+    margin: 10px;
+}
+
+.list-produk:hover
+{
+    transition-duration: 700ms;
+    box-shadow: 5px 5px gainsboro;
+}
+
+.list-produk img
+{
+    width: 100%;
+    height: 100px;
+    display: block;
+    margin-bottom: 5px;
+}
+/* baris tulisan penyakit */
+.list-produk h4
+{
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.tombol
+{
+	text-decoration: none;
+    border-radius: 30px;
+    padding: 5px;
+    display: block;
+    float: left;
+    width: 90%;
+    margin: 2px;
+    text-align: center;
+}
+
+.tombol:hover
+{
+    background-color: #20B2AA;
+    transition-duration: 700ms;
+}
+
+
+.tombol-detail
+{
+    background-color: #20B2AA;
+}
+
+.jns
+{
+    width: 1000px;
+    margin: 20px auto;
+    background-color: "";
+    overflow: hidden;
+}
+
+.jns h2
+{
+    color: black;
+    border-bottom: 1px solid black;
+	background-color: "";
+    margin: 5px;
+    margin-bottom: 13px;
+}
+
+/* Tombol */
+.btn
+{
+	display:inline-block;
+	margin-bottom:0;
+	font-size:11px;
+	font-weight:bold;
+	line-height:1.0;
+	text-align:center;
+	text-decoration:none;
+	white-space:nowrap;
+	vertical-align:middle;
+	-ms-touch-action:manipulation;
+	touch-action:manipulation;
+	cursor:pointer;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+	background-image:none;
+	border:1px solid transparent;
+	border-radius:3px;
+}
+.btn-kecil {padding:2px 4px;}
+.btn-besar {padding:6px 10px;}
+.btn:hover{color:#333;text-decoration:none}
+.btn-biru{color:#fff;background-color:#337ab7;border-color:#2e6da4}
+.btn-biru:hover{color:#fff;background-color:#286090;border-color:#204d74}
+.btn-hijau{color:#fff;background-color:#5cb85c;border-color:#4cae4c}
+.btn-hijau:hover{color:#fff;background-color:#449d44;border-color:#398439}
+.btn-kuning{color:#fff;background-color:#f0ad4e;border-color:#eea236}
+.btn-kuning:hover{color:#fff;background-color:#ec971f;border-color:#d58512}
+.btn-standar{color:#333;background-color:#fff;border-color:#ccc}
+.btn-standar:hover{color:#333;background-color:#e6e6e6;border-color:#adadad}
+.btn-merah{color:#fff;background-color:#d9534f;border-color:#d43f3a}
+.btn-merah:hover{color:#fff;background-color:#c9302c;border-color:#ac2925}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 80px;
+    height: 100px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 70px;
+    height: 60px;
+}
+
+div.desc {
+    padding: 9px;
+    text-align: center;
+}
+
+
+#hero {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(0deg, 	#008B8B 0%, #33364a 100%);
+  padding: 0;
+}
+
+#hero .carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  height: 70vh;
+  padding-top: 60px;
+}
+
+#hero h2 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+#hero p {
+  width: 80%;
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+  margin: 0 auto 30px auto;
+  color: #fff;
+}
+
+#hero .carousel-control-prev, #hero .carousel-control-next {
+  width: 10%;
+}
+
+#hero .carousel-control-next-icon, #hero .carousel-control-prev-icon {
+  background: none;
+  font-size: 48px;
+  line-height: 1;
+  width: auto;
+  height: auto;
+}
+
+#hero .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #fff;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  border: 2px solid #ef6603;
+}
+
+#hero .btn-get-started:hover {
+  background: #ef6603;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+  #hero p {
+    width: 60%;
+  }
+  #hero .carousel-control-prev, #hero .carousel-control-next {
+    width: 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero .carousel-container {
+    height: 90vh;
+  }
+  #hero h2 {
+    font-size: 28px;
+  }
+}
+
+.hero-waves {
+  display: block;
+  width: 100%;
+  height: 60px;
+  position: relative;
+}
+
+.wave1 use {
+  -webkit-animation: move-forever1 10s linear infinite;
+  animation: move-forever1 10s linear infinite;
+  -webkit-animation-delay: -2s;
+  animation-delay: -2s;
+}
+
+.wave2 use {
+  -webkit-animation: move-forever2 8s linear infinite;
+  animation: move-forever2 8s linear infinite;
+  -webkit-animation-delay: -2s;
+  animation-delay: -2s;
+}
+
+.wave3 use {
+  -webkit-animation: move-forever3 6s linear infinite;
+  animation: move-forever3 6s linear infinite;
+  -webkit-animation-delay: -2s;
+  animation-delay: -2s;
+}
+
+@-webkit-keyframes move-forever1 {
+  0% {
+    transform: translate(85px, 0%);
+  }
+  100% {
+    transform: translate(-90px, 0%);
+  }
+}
+
+@keyframes move-forever1 {
+  0% {
+    transform: translate(85px, 0%);
+  }
+  100% {
+    transform: translate(-90px, 0%);
+  }
+}
+
+@-webkit-keyframes move-forever2 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
+
+@keyframes move-forever2 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
+
+@-webkit-keyframes move-forever3 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
+
+@keyframes move-forever3 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
+

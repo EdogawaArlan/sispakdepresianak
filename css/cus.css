@@ -1,0 +1,35 @@
+.w-container:after,.w-container:before{content:"";display:table;clear:both}
+.w-container{padding:0.01em 16px}
+.w-card,.w-card-2{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
+.w-card-4{box-shadow:0 1px 1px 0 rgba(0,0,0,0.2),0 4px 4px 0 rgba(0,0,0,0.19)}
+.w-blue{color:#fff!important;background-color:#002db3!important}
+.w-blue-grey{color:#fff!important;background-color:#607d8b!important}
+.w-grey{color:#fff!important;background-color:#999!important}
+.w-grey-h{color:#333!important;background-color:#cfcfcf!important}
+.w-red{color:#fff!important;background-color:#f44336!important}
+.w-green{color:#fff!important;background-color:#4CAF50!important}
+.w-text-blue{color:#2196F3!important}
+.w-text-red{color:#f44336!important}
+.w-text-light-green{color:#8bc34a!important}
+.w-text-indigo{color:#3f51b5!important}
+.w-text-khaki{color:#b4aa50!important}
+.w-text-lime{color:#cddc39!important}
+.w-text-orange{color:#ff9800!important}
+.w-text-deep-orange{color:#ff5722!important}
+.w-text-pink{color:#e91e63!important}
+.w-text-purple{color:#9c27b0!important}
+.w-text-deep-purple{color:#673ab7!important}
+.w-text-sand{color:#fdf5e6!important}
+.w-text-teal{color:#009688!important}
+.w-input{padding:8px;display:block;border:none;border-bottom:1px solid #ccc;width:100%}
+.w-btn {border:none;display:inline-block;outline:0;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.w-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+.w-btn{box-shadow:none}
+.w-border{border:1px solid #ccc!important}
+.w-sand{color:#000!important;background-color:#fdf5e6!important}
+.w-orange{color:#000!important;background-color:#FFFF00!important}
+.w-hijau{color:#000!important;background-color:  #3ff055!important}
+.w-grey{color:#5a5a5a!important;background-color:#d5d5d5!important}
+.w-grey-gray{color:#818181!important;background-color:#fff!important}
+.w-birumuda{color:#000!important;background-color:#20B2AA!important}
+.container-fix{overflow: hidden;font-family: Arial;width:1000px;display: block;margin-left: auto;margin-right: auto;!important}
